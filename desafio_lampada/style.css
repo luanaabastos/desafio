@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(48, 48, 48);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: rgb(239, 235, 228);
+}
+
+section {
+    background-color: rgb(239, 235, 228);
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+}
+.botao {
+    background-color: rgb(12, 112, 242);
+    color: rgb(239, 235, 228);
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
